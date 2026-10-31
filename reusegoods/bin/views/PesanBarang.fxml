@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" styleClass="pane" stylesheets="@../loginDesign.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.pesanbarang">
+   <children>
+      <Button layoutX="14.0" layoutY="410.0" mnemonicParsing="false" onAction="#keHalaman3" styleClass="textfield" stylesheets="@../loginDesign.css" text="Kembali" />
+      <TextField fx:id="tfAlamat" layoutX="457.0" layoutY="139.0" prefHeight="125.0" prefWidth="310.0" styleClass="textfield" stylesheets="@../loginDesign.css" />
+      <Button layoutX="690.0" layoutY="294.0" mnemonicParsing="false" onAction="#maaf" prefHeight="33.0" prefWidth="77.0" style="-fx-background-color: tan;" styleClass="textfield" stylesheets="@../loginDesign.css" text="Bayar">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Text layoutX="457.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alamat:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="210.0" layoutY="24.0" prefHeight="263.0" prefWidth="236.0" style="-fx-background-color: #f7ede2;" styleClass="anchorpanecream" stylesheets="@../loginDesign.css">
+         <children>
+            <ImageView fitHeight="244.0" fitWidth="252.0" layoutX="11.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/adidasthrift.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label fx:id="label" layoutX="480.0" layoutY="342.0" prefHeight="20.0" prefWidth="285.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="10.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/reuse_goods_y-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="454.0" layoutY="24.0" prefHeight="46.0" prefWidth="339.0" text="Sepatu Adidas Forum Low">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="454.0" layoutY="66.0" text="RP.200.000" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Text layoutX="568.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="bayar dalam kurun waktu 60 menit">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

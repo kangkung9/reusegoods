@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.registrasiController">
+   <children>
+      <Pane layoutX="24.0" layoutY="24.0" prefHeight="402.0" prefWidth="325.0" styleClass="pane" stylesheets="@../loginDesign.css">
+         <children>
+            <TextField fx:id="email" layoutX="58.0" layoutY="170.0" prefHeight="31.0" prefWidth="210.0" promptText="Email" styleClass="textfield" stylesheets="@../loginDesign.css" />
+            <TextField fx:id="pw" layoutX="58.0" layoutY="213.0" prefHeight="31.0" prefWidth="210.0" promptText="Password" styleClass="textfield" stylesheets="@../loginDesign.css" />
+            <Button fx:id="daftarAkun" layoutX="110.0" layoutY="256.0" mnemonicParsing="false" onAction="#buttonDaftar" prefHeight="31.0" prefWidth="105.0" styleClass="textfield" stylesheets="@../loginDesign.css" text="Daftar" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="62.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/reuse_goods_y-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="111.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sudah punya akun?" />
+            <TextField fx:id="un" layoutX="58.0" layoutY="126.0" prefHeight="31.0" prefWidth="210.0" promptText="Username" styleClass="textfield" />
+            <Label layoutX="73.0" layoutY="343.0" prefHeight="17.0" prefWidth="180.0" />
+            <Label fx:id="usernameAlert" layoutX="82.0" layoutY="343.0" prefHeight="17.0" prefWidth="163.0" />
+            <Button fx:id="loginbtn" layoutX="137.0" layoutY="324.0" mnemonicParsing="false" onAction="#login" styleClass="textfield" stylesheets="@../loginDesign.css" text="Log In" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="402.0" fitWidth="585.0" layoutX="374.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/adc81a3501cd8f0166a9773757fa3400.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

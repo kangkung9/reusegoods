@@ -1,0 +1,27 @@
+.pane{
+    -fx-background-color:linear-gradient(to bottom right, #ffccd5, #E5989B);
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .4px .4px;
+}
+
+.anchorpane{
+    -fx-background-color:#ffccd5;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .4px .4px;
+}
+
+.anchorpanecream{
+    -fx-background-color:#f7ede2;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .4px .4px;
+}
+
+.textfield{
+    -fx-background-color: linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius: 4px;
+    -fx-font-size:13px;
+    -fx-border-color: #000;
+    -fx-border-width: .4px;
+    -fx-border-radius: 4px;
+    -fx-font-family: Tahoma;
+}

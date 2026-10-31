@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.tawarharga">
+   <children>
+      <Pane prefHeight="450.0" prefWidth="800.0" styleClass="pane" stylesheets="@../loginDesign.css">
+         <children>
+            <TextField fx:id="tfpenawaran" layoutX="448.0" layoutY="289.0" prefHeight="33.0" prefWidth="200.0" styleClass="textfield" stylesheets="@../loginDesign.css" />
+            <Button layoutX="661.0" layoutY="289.0" mnemonicParsing="false" onAction="#maaf" prefHeight="33.0" prefWidth="77.0" style="-fx-background-color: tan;" styleClass="textfield" stylesheets="@../loginDesign.css" text="Tawar">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="14.0" layoutY="403.0" mnemonicParsing="false" onAction="#keHalaman3" prefHeight="33.0" prefWidth="77.0" styleClass="textfield" stylesheets="@../loginDesign.css" text="Kembali" />
+            <Text layoutX="318.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Harga Penawaran:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <AnchorPane layoutX="200.0" layoutY="14.0" prefHeight="263.0" prefWidth="236.0" style="-fx-background-color: #f7ede2;" styleClass="anchorpanecream" stylesheets="@../loginDesign.css">
+               <children>
+                  <ImageView fitHeight="244.0" fitWidth="252.0" layoutX="11.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/adidasthrift.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Label fx:id="label" layoutX="451.0" layoutY="337.0" prefHeight="20.0" prefWidth="285.0" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/reuse_goods_y-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="444.0" layoutY="14.0" prefHeight="46.0" prefWidth="339.0" text="Sepatu Adidas Forum Low">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="444.0" layoutY="56.0" text="RP.200.000" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
